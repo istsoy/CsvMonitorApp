@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<log>
+    <daily-record date="18-FEB-2016">
+        <record>
+            <userID>user1</userID>
+            <url>http://ru.wikipedia.org</url>
+            <average>30</average>
+        </record>
+        <record>
+            <userID>user3</userID>
+            <url>http://google.com</url>
+            <average>60</average>
+        </record>
+        <record>
+            <userID>user3</userID>
+            <url>http://vk.com</url>
+            <average>50</average>
+        </record>
+        <record>
+            <userID>user10</userID>
+            <url>http://hh.ru</url>
+            <average>60</average>
+        </record>
+    </daily-record>
+    <daily-record date="19-FEB-2016">
+        <record>
+            <userID>user1</userID>
+            <url>http://ru.wikipedia.org</url>
+            <average>70</average>
+        </record>
+    </daily-record>
+</log>

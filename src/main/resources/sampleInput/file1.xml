@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<log>
+	<record>
+		<timestamp>1455812019</timestamp>
+		<userID>user10</userID>
+		<url>http://hh.ru</url>
+		<session>30</session>
+	</record>
+	<record>
+		<timestamp>1455812968</timestamp>
+		<userID>user3</userID>
+		<url>http://google.com</url>
+		<session>60</session>
+	</record>
+	<record>
+		<timestamp>1455812411</timestamp>
+		<userID>user10</userID>
+		<url>http://hh.ru</url>
+		<session>90</session>
+	</record>
+	<record>
+		<timestamp>1455812684</timestamp>
+		<userID>user3</userID>
+		<url>http://vk.com</url>
+		<session>50</session>
+	</record>
+	<record>
+		<timestamp>1455839970</timestamp>
+		<userID>user1</userID>
+		<url>http://ru.wikipedia.org</url>
+		<session>100</session>
+	</record>
+</log>
