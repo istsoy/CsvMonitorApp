@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="log" type="log"/>
+
+  <xs:complexType name="log">
+    <xs:sequence>
+      <xs:element name="record" type="record" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="record">
+    <xs:sequence>
+      <xs:element name="timestamp" type="xs:long"/>
+      <xs:element name="userID" type="xs:string" minOccurs="0"/>
+      <xs:element name="url" type="xs:string" minOccurs="0"/>
+      <xs:element name="session" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
