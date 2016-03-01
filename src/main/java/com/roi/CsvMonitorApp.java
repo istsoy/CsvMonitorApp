@@ -31,7 +31,7 @@ public class CsvMonitorApp {
     }
 
     public static void main(String[] args) {
-        // Get input/output folders values from config.properties
+        // Get inputSchema/outputSchema folders values from config.properties
         Properties properties = new Properties();
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         InputStream input = classLoader.getResourceAsStream("config.properties");

@@ -51,7 +51,7 @@ class FileThread implements Runnable {
                 String path = CsvMonitorApp.getOutputFolder().getAbsolutePath();
                 File outputFile = new File(path + "\\avg_" + file.getName());
                 CsvService.writeCsvRecords(map, outputFile);
-                System.out.println(outputFile + " created");
+                System.out.println(outputFile.getName() + " created");
             } catch (Exception e) {
                 System.err.println("Incorrect format of .csv-file: " + file.getName());
             }
@@ -64,7 +64,7 @@ class FileThread implements Runnable {
                 String path = CsvMonitorApp.getOutputFolder().getAbsolutePath();
                 File outputFile = new File(path + "\\avg_" + file.getName());
                 XmlService.writeXmlRecords(map, outputFile);
-                System.out.println(outputFile + " created");
+                System.out.println(outputFile.getName() + " created");
             } catch (UnmarshalException e) {
                 System.err.println("Incorrect format of .xml file: " + file.getName());
             }

@@ -76,7 +76,7 @@ public class CsvService {
 
     /**
      *
-     * @param map Map which contains list of output records (value) for each day (key)
+     * @param map Map which contains list of outputSchema records (value) for each day (key)
      * @param file CSV-file the map is written to
      */
     public static void writeCsvRecords(Map<String, List<OutputRecord>> map, File file) {

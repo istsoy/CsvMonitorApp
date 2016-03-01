@@ -12,7 +12,7 @@ public class RecordService {
 
     /**
      *
-     * @param initialList Initial list of records from input csv-file
+     * @param initialList Initial list of records from inputSchema csv-file
      * @return This returns a map, where key is date, and value is a List of records made that day.
      */
     public static Map<String, List<OutputRecord>> getResultList(List<Record> initialList) {

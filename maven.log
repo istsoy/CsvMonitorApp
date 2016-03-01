@@ -9,7 +9,7 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ monitor ---
 [WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] Copying 6 resources
+[INFO] Copying 10 resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ monitor ---
 [INFO] Changes detected - recompiling the module!
@@ -35,7 +35,7 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.695 s
-[INFO] Finished at: 2016-03-01T17:18:57+03:00
-[INFO] Final Memory: 17M/168M
+[INFO] Total time: 1.841 s
+[INFO] Finished at: 2016-03-01T17:40:28+03:00
+[INFO] Final Memory: 17M/169M
 [INFO] ------------------------------------------------------------------------

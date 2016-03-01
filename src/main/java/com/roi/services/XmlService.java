@@ -51,9 +51,9 @@ public class XmlService {
             JAXBContext jaxbContext = JAXBContext.newInstance(Log.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 
-            // We set schema for unmarshaller to validate input .XML-files against generated .XSD
+            // We set schema for unmarshaller to validate inputSchema .XML-files against generated .XSD
             try {
-                Schema schema = sf.newSchema(new File("src/main/resources/input/schema1.xsd"));
+                Schema schema = sf.newSchema(new File("src/main/resources/inputSchema/schema1.xsd"));
                 jaxbUnmarshaller.setSchema(schema);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -76,7 +76,7 @@ public class XmlService {
 
     /**
      *
-     * @param map Map which contains list of output records (value) for each day (key)
+     * @param map Map which contains list of outputSchema records (value) for each day (key)
      * @param file XML-file the map is written to
      */
     public static void writeXmlRecords(Map<String, List<OutputRecord>> map, File file) {
